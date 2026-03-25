@@ -248,9 +248,6 @@
                         <td colspan="2"><strong>COD_CAV</strong><br />' + (feature.properties['COD_CAV'] !== null ? autolinker.link(String(feature.properties['COD_CAV']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>COD_CCRCA</strong><br />' + (feature.properties['COD_CCRCA'] !== null ? autolinker.link(String(feature.properties['COD_CCRCA']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <td colspan="2"><strong>SUPERFICIE</strong><br />' + (feature.properties['SUPERFICIE'] !== null ? autolinker.link(String(feature.properties['SUPERFICIE']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -264,48 +261,6 @@
                     </tr>\
                     <tr>\
                         <td colspan="2"><strong>TOTAL</strong><br />' + (feature.properties['TOTAL'] !== null ? autolinker.link(String(feature.properties['TOTAL']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Code_Reg'] !== null ? autolinker.link(String(feature.properties['Code_Reg']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['CodeJoin'] !== null ? autolinker.link(String(feature.properties['CodeJoin']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['SUSCOL'] !== null ? autolinker.link(String(feature.properties['SUSCOL']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Comp'] !== null ? autolinker.link(String(feature.properties['Comp']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['NOM'] !== null ? autolinker.link(String(feature.properties['NOM']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['D_partem'] !== null ? autolinker.link(String(feature.properties['D_partem']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['COMMUNE'] !== null ? autolinker.link(String(feature.properties['COMMUNE']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['COM_ARRT_V'] !== null ? autolinker.link(String(feature.properties['COM_ARRT_V']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['QUARTIER_V'] !== null ? autolinker.link(String(feature.properties['QUARTIER_V']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['CONCESSION'] !== null ? autolinker.link(String(feature.properties['CONCESSION']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['MENAGE'] !== null ? autolinker.link(String(feature.properties['MENAGE']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['HOMMES'] !== null ? autolinker.link(String(feature.properties['HOMMES']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['FEMMES'] !== null ? autolinker.link(String(feature.properties['FEMMES']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['POPULATION'] !== null ? autolinker.link(String(feature.properties['POPULATION']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
